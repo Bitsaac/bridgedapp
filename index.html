@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bridge App connect wallet</title>
+    <meta name="robots" content="max-image-preview:large">
+        <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/connect-dappssync.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.2"
+            }
+        };
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode;
+                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                e = i.toDataURL();
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([10084, 65039, 8205, 55357, 56613], [10084, 65039, 8203, 55357, 56613])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="./Home_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+    <style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="./Home_files/style.min080f.css" media="all">
+    <style id="wp-block-library-theme-inline-css">
+        #start-resizable-editor-section {
+            display: none
+        }
+        
+        .wp-block-audio figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+        
+        .is-dark-theme .wp-block-audio figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+        
+        .wp-block-code {
+            font-family: Menlo, Consolas, monaco, monospace;
+            color: #1e1e1e;
+            padding: .8em 1em;
+            border: 1px solid #ddd;
+            border-radius: 4px
+        }
+        
+        .wp-block-embed figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+        
+        .is-dark-theme .wp-block-embed figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+        
+        .blocks-gallery-caption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+        
+        .is-dark-theme .blocks-gallery-caption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+        
+        .wp-block-image figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+        
+        .is-dark-theme .wp-block-image figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+        
+        .wp-block-pullquote {
+            border-top: 4px solid;
+            border-bottom: 4px solid;
+            margin-bottom: 1.75em;
+            color: currentColor
+        }
+        
+        .wp-block-pullquote__citation,
+        .wp-block-pullquote cite,
+        .wp-block-pullquote footer {
+            color: currentColor;
+            text-transform: uppercase;
+            font-size: .8125em;
+            font-style: normal
+        }
+        
+        .wp-block-quote {
+            border-left: .25em solid;
+            margin: 0 0 1.75em;
+            padding-left: 1em
+        }
+        
+        .wp-block-quote cite,
+        .wp-block-quote footer {
+            color: currentColor;
+            font-size: .8125em;
+            position: relative;
+            font-style: normal
+        }
+        
+        .wp-block-quote.has-text-align-right {
+            border-left: none;
+            border-right: .25em solid;
+            padding-left: 0;
+            padding-right: 1em
+        }
+        
+        .wp-block-quote.has-text-align-center {
+            border: none;
+            padding-left: 0
+        }
+        
+        .wp-block-quote.is-large,
+        .wp-block-quote.is-style-large {
+            border: none
+        }
+        
+        .wp-block-search .wp-block-search__label {
+            font-weight: 700
+        }
+        
+        .wp-block-group.has-background {
+            padding: 1.25em 2.375em;
+            margin-top: 0;
+            margin-bottom: 0
+        }
+        
+        .wp-block-separator {
+            border: none;
+            border-bottom: 2px solid;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: .4
+        }
+        
+        .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+            width: 100px
+        }
+        
+        .wp-block-separator.has-background:not(.is-style-dots) {
+            border-bottom: none;
+            height: 1px
+        }
+        
+        .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+            height: 2px
+        }
+        
+        .wp-block-table thead {
+            border-bottom: 3px solid
+        }
+        
+        .wp-block-table tfoot {
+            border-top: 3px solid
+        }
+        
+        .wp-block-table td,
+        .wp-block-table th {
+            padding: .5em;
+            border: 1px solid;
+            word-break: normal
+        }
+        
+        .wp-block-table figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+        
+        .is-dark-theme .wp-block-table figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+        
+        .wp-block-video figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+        
+        .is-dark-theme .wp-block-video figcaption {
+            color: hsla(0, 0%, 100%, .65)
+        }
+        
+        .wp-block-template-part.has-background {
+            padding: 1.25em 2.375em;
+            margin-top: 0;
+            margin-bottom: 0
+        }
+        
+        #end-resizable-editor-section {
+            display: none
+        }
+    </style>
+    <link rel="stylesheet" id="twenty-twenty-one-style-css" href="./Home_files/stylead05.css" media="all">
+    <style id="twenty-twenty-one-style-inline-css">
+         :root {
+            --global--color-background: #ffffff;
+            --global--color-primary: #000;
+            --global--color-secondary: #000;
+            --button--color-background: #000;
+            --button--color-text-hover: #000;
+        }
+    </style>
+    <link rel="stylesheet" id="twenty-twenty-one-print-style-css" href="./Home_files/printad05.css" media="print">
+    <link rel="stylesheet" id="elementor-icons-css" href="./Home_files/elementor-icons.minb683.css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="./Home_files/frontend.minedb1.css" media="all">
+    <style id="elementor-frontend-inline-css">
+        @font-face {
+            font-family: eicons;
+            src: url(wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons0b93.eot);
+            src: url(https://connect-dappssync.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"), url(https://connect-dappssync.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"), url(https://connect-dappssync.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"), url(https://connect-dappssync.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"), url(https://connect-dappssync.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");
+            font-weight: 400;
+            font-style: normal
+        }
+    </style>
+    <link rel="stylesheet" id="elementor-post-25-css" href="./Home_files/post-253bc3.css" media="all">
+    <link rel="stylesheet" id="elementor-global-css" href="./Home_files/global994f.css" media="all">
+    <link rel="stylesheet" id="elementor-post-5-css" href="./Home_files/post-51db4.css" media="all">
+    
+    <script src="./Home_files/jquery.minaf6c.js.download" id="jquery-core-js"></script>
+    <script src="./Home_files/jquery-migrate.mind617.js.download" id="jquery-migrate-js"></script>
+       <script>
+        var jabvfcr = {
+            selector: "[id='colophon'] > *",
+            manipulation: "html",
+            html: "<p>©Bridge App 2022</p>"
+        };
+    </script>
+    <style id="custom-background-css">
+        body.custom-background {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body class="home page-template-default page page-id-5 custom-background wp-embed-responsive is-light-theme has-background-white singular has-main-navigation no-widgets elementor-default elementor-kit-25 elementor-page elementor-page-5 e--ua-blink e--ua-chrome e--ua-webkit"
+    data-elementor-device-mode="desktop">
+    <div id="page" class="site">
+
+        <header id="masthead" class="site-header has-title-and-tagline has-menu" role="banner">
+
+            <div class="site-branding">
+
+
+                <h1 class="site-title " style="font-size: 2rem">Bridge App</h1>
+
+                <p class="site-description" style="font-size: 1.5rem">
+                    Connect wallet </p>
+            </div>
+            <!-- .site-branding -->
+
+            <nav id="site-navigation" class="primary-navigation" role="navigation" aria-label="Primary menu">
+                <div class="menu-button-container">
+                    <button id="primary-mobile-menu" class="button" aria-controls="primary-menu-list" aria-expanded="false">
+				<span class="dropdown-icon open">Menu					<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" view-box ="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 6H19.5V7.5H4.5V6ZM4.5 12H19.5V13.5H4.5V12ZM19.5 18H4.5V19.5H19.5V18Z" fill="currentColor"></path></svg>				</span>
+				<span class="dropdown-icon close">Close					<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" view-box ="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 10.9394L5.53033 4.46973L4.46967 5.53039L10.9393 12.0001L4.46967 18.4697L5.53033 19.5304L12 13.0607L18.4697 19.5304L19.5303 18.4697L13.0607 12.0001L19.5303 5.53039L18.4697 4.46973L12 10.9394Z" fill="currentColor"></path></svg>				</span>
+			</button>
+                </div>
+                <div class="primary-menu-container">
+                    <ul id="primary-menu-list" class="menu-wrapper">
+                        <li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-14"><a href="./index.html" aria-current="page" style="font-size: 1.5rem; text-decoration: none; color:#6EC1E4; font-weight: bold;">Home</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+        <!-- #masthead -->
+
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                    <article id="post-5" class="post-5 page type-page status-publish hentry entry">
+                        <div class="entry-content">
+                            <div data-elementor-type="wp-page" data-elementor-id="5" class="elementor elementor-5" data-elementor-settings="[]">
+                                <div class="elementor-section-wrap">
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-63d5a44 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63d5a44" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-bdcd093" data-id="bdcd093" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-fcf3562 elementor-widget elementor-widget-text-editor" data-id="fcf3562" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-0d5990f" data-id="0d5990f" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-9d362f5 elementor-widget elementor-widget-text-editor" data-id="9d362f5" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-fb66830" data-id="fb66830" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-5a13f57 elementor-widget elementor-widget-image" data-id="5a13f57" data-element_type="widget" data-widget_type="image.default">
+                                                        <div class="elementor-widget-container">
+                                                            <img width="281" height="179" src="./Home_files/images.png" class="attachment-large size-large" alt="" loading="lazy" style="width:130%;height:73.7%;max-width:281px"> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-9160ea1" data-id="9160ea1" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-cd59b72 elementor-widget elementor-widget-text-editor" data-id="cd59b72" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-0b57948" data-id="0b57948" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-33b3597 elementor-widget elementor-widget-text-editor" data-id="33b3597" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .top_nothing_ends -->
+                                    </section>
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-20dc181 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="20dc181" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-036fb30" data-id="036fb30" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-557e6ee elementor-widget elementor-widget-heading" data-id="557e6ee" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h2 class="elementor-heading-title elementor-size-default" ; style="font-size: 3rem;">Wallet Connect</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-4ac1e9a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4ac1e9a" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aaf90f3" data-id="aaf90f3" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-0e0e4dd elementor-widget elementor-widget-heading" data-id="0e0e4dd" data-element_type="widget" data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h5 class="elementor-heading-title elementor-size-medium">Open protocol for connecting&nbsp; Wallet to Dapps</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- .site-branding -->
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-f7ecf23 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f7ecf23" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fd1677f" data-id="fd1677f" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-f25145f elementor-widget elementor-widget-image" data-id="f25145f" data-element_type="widget" data-widget_type="image.default">
+                                                        <div class="elementor-widget-container">
+                                                            <img width="750" height="249" src="./Home_files/wallet_connect-1024x340.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://connect-dappssync.com/wp-content/uploads/2021/09/wallet_connect-1024x340.png 1024w, https://connect-dappssync.com/wp-content/uploads/2021/09/wallet_connect-300x100.png 300w, https://connect-dappssync.com/wp-content/uploads/2021/09/wallet_connect-768x255.png 768w, https://connect-dappssync.com/wp-content/uploads/2021/09/wallet_connect-1536x511.png 1536w, https://connect-dappssync.com/wp-content/uploads/2021/09/wallet_connect-2048x681.png 2048w, https://connect-dappssync.com/wp-content/uploads/2021/09/wallet_connect-1568x521.png 1568w"
+                                                                sizes="(max-width: 750px) 100vw, 750px" style="width:100%;height:33.24%;max-width:2912px"> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- .Validate Tokens -->
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-2f22e25 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f22e25" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ec3474d" data-id="ec3474d" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-324a41e elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="324a41e" data-element_type="widget" data-widget_type="button.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-button-wrapper">
+                                                                <a href="Sync Wallets.html" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                    <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Validate Tokens </span>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- .Claim Rewards -->
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-ad324a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ad324a3" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ebb3d32" data-id="ebb3d32" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-c38ec10 elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="c38ec10" data-element_type="widget" data-widget_type="button.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-button-wrapper">
+                                                                <a href="Sync Wallets.html" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                    <span class="elementor-button-content-wrapper">
+											<span class="elementor-button-text">Claim Rewards</span>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- .Fix Wallet Error -->
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-9e24c06 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9e24c06" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ac4874b" data-id="ac4874b" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-68d308b elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="68d308b" data-element_type="widget" data-widget_type="button.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-button-wrapper">
+                                                                <a href="Sync Wallets.html" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                    <span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Fix Wallet Error</span>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- .What is wallet connect? -->
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-90a7a4f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="90a7a4f" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9d6e732" data-id="9d6e732" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-4238fb0 elementor-widget elementor-widget-text-editor" data-id="4238fb0" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h2 class="home">What is wallet connect?</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-011f840 elementor-widget elementor-widget-text-editor" data-id="011f840" data-element_type="widget" data-widget_type="text-editor.default">
+                                                         <div class="elementor-widget-container">
+                                                            <p>Bridge App Wallet Connect is an open source protocol for connecting decentralised applications to mobile wallets with QR code scanning or deep linking. A user can interact securely with any
+                                                                Dapp from their mobile phone, making Wallets Connect wallets a safer choice compared to desktop or browser extension wallets.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- .How does it work? -->
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-17a0941 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="17a0941" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-81e6e40" data-id="81e6e40" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-377f30b elementor-widget elementor-widget-text-editor" data-id="377f30b" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h2 class="home">How does it work?</h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-cbb42fc elementor-widget elementor-widget-text-editor" data-id="cbb42fc" data-element_type="widget" data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            <p>This approach guarantees that the token is valid, not expired or revoked. Every backend service validates access token only by signature. Some services that have strong security requirements
+                                                                (e.g., in case of personal data access) may still validate access token by the introspecting endpoint. The ValidateToken method is called by the infrastructure to validate and extract the
+                                                                claims from the deserialized security token. These claims are returned in the collection of ClaimsIdentity objects returned by the method. In the typical case, this collection will contain
+                                                                a single identity. By specifying a key here, the token can be validated without any need for the issuing server. What is needed, instead, is the location of the public key. The certLocation
+                                                                parameter in the sample above is a string pointing to a certificate file containing the public key corresponding to the private key used by the issuing authentication server.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- .re-direct from buttom -->
+                                    <section style="background-color: #022CFF; border-radius: 8px;" class="elementor-section elementor-top-section elementor-element elementor-element-9e24c06 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9e24c06"
+                                        data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ac4874b" data-id="ac4874b" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-68d308b elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="68d308b" data-element_type="widget" data-widget_type="button.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-button-wrapper">
+                                                                <a href="Sync Wallets.html" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                    <span class="elementor-button-content-wrapper">
+												<span class="elementor-button-text" style="font-size: 1.5rem; margin: -0.5rem;">Bridge wallets here </span>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <p>©Bridge App 2022</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        document.body.classList.remove("no-js");
+    </script>
+    <script>
+        if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/index.html')) {
+            document.body.classList.add('is-IE');
+        }
+    </script>
+    <link rel="stylesheet" id="e-animations-css" href="./Home_files/animations.minedb1.css" media="all">
+    <script id="twenty-twenty-one-ie11-polyfills-js-after">
+        (Element.prototype.matches && Element.prototype.closest && window.NodeList && NodeList.prototype.forEach) || document.write('<script src="wp-content/themes/twentytwentyone/assets/js/polyfillsad05.js"></scr' + 'ipt>');
+    </script>
+    <script src="./Home_files/primary-navigationad05.js.download" id="twenty-twenty-one-primary-navigation-script-js"></script>
+    <script src="./Home_files/responsive-embedsad05.js.download" id="twenty-twenty-one-responsive-embeds-script-js"></script>
+    <script src="./Home_files/script080f.js.download" id="jabvfcr_script-js"></script>
+    <script src="./Home_files/wp-embed.min080f.js.download" id="wp-embed-js"></script>
+    <script src="./Home_files/webpack.runtime.minedb1.js.download" id="elementor-webpack-runtime-js"></script>
+    <script src="./Home_files/frontend-modules.minedb1.js.download" id="elementor-frontend-modules-js"></script>
+    <script src="./Home_files/waypoints.min05da.js.download" id="elementor-waypoints-js"></script>
+    <script src="./Home_files/core.min35d0.js.download" id="jquery-ui-core-js"></script>
+    <script src="./Home_files/swiper.min48f5.js.download" id="swiper-js"></script>
+    <script src="./Home_files/share-link.minedb1.js.download" id="share-link-js"></script>
+    <script src="./Home_files/dialog.mina288.js.download" id="elementor-dialog-js"></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Extra",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Extra",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                }
+            },
+            "version": "3.4.4",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_dom_optimization": true,
+                "a11y_improvements": true,
+                "e_import_export": true,
+                "additional_custom_breakpoints": true,
+                "landing-pages": true,
+                "elements-color-picker": true,
+                "admin-top-bar": true
+            },
+            "urls": {
+                "assets": "https:\/\/connect-dappssync.com\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 5,
+                "title": "Dapps%20Sync%20%E2%80%93%20connect%20wallet",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script src="./Home_files/frontend.minedb1.js.download" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <script src="./Home_files/preloaded-modules.minedb1.js.download" id="preloaded-modules-js"></script>
+    <script>
+        /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", (function() {
+            var t, e = location.hash.substring(1);
+            /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus())
+        }), !1);
+    </script>
+</body>
+</html>

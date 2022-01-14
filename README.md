@@ -1,2 +1,1 @@
-# bridgedapp.tk
-Sample project for potential employers to access
+A simple form with linked spreedsheet as the backend
